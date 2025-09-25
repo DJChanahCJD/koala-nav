@@ -43,7 +43,7 @@ export default function Sidebar({ categories, onCategoryClick }: SidebarProps) {
           <img src="/favicon.svg" alt="Koala Nav" className="w-6 h-6" />
           {!isCollapsed && (
             <h1 className="ml-3 text-lg font-semibold text-primary truncate">
-              Koalanav
+              Koala Nav
             </h1>
           )}
         </Button>
@@ -76,9 +76,9 @@ export default function Sidebar({ categories, onCategoryClick }: SidebarProps) {
       {/* 底部版权信息 */}
       <div className="h-12 flex items-center justify-center border-t border-secondary">
         <p className="text-xs text-primary">
-          <Link href="https://github.com/djchanahcjd/koalanav">
+          <Link href="https://github.com/DJChanahCJD/koala-nav">
             <Github className="inline-block w-4 h-4 mr-1" />
-            {!isCollapsed && <span>Koalanav</span>}
+            {!isCollapsed && <span>Koala Nav</span>}
           </Link>
         </p>
       </div>
