@@ -3,8 +3,7 @@
 
 > 配置入口：[public/README.md](public/README.md)
 
-![image-20250925115535714](https://djchan-xyz.pages.dev/file/AgACAgUAAyEGAASJIjr1AAIC0WjUvUV7SlF-yg2voXiNmD55ew4fAALPxjEbke-oVtlO2nppnxrCAQADAgADdwADNgQ.png)
-
+<img width="1825" height="956" alt="image" src="https://github.com/user-attachments/assets/6d4d9f73-a63e-4153-b41b-eb64f143e2a9" />
 
 
 ## 快速开始
