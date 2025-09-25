@@ -2,50 +2,54 @@
 
 ## 🌟 编辑精选
 
-* [Dribbble](https://dribbble.com "全球知名设计师作品分享平台")
+- [Webstack](https://webstack.cc/ "设计师网址导航")
 
-* [Behance](https://behance.net "Adobe旗下的设计交流平台")
-
-* [Linux Goose](https://linux-goose.pages.dev/ "闯关式学习平台")
-
-* [LogoSurf](https://www.logo.surf/ "在线Logo设计工具")
-
-* [Emojispark](https://emojispark.com/ "在线Emoji设计工具")
-
-* [v0](https://v0.app/ "AI辅助的设计工具")
-
-* [Webstack](https://webstack.cc/ "设计师网址导航")
-
-  
+- [v0](https://v0.app/ "AI全栈设计工具")
 
 ---
 
 ## 💻 开发工具
 
-* [Visual Studio Code](https://code.visualstudio.com "微软开发的跨平台代码编辑器")
-* [Postman](https://www.postman.com "API测试与调试工具")
-* [Lucide Icons](https://lucide.dev/icons/ "开源图标库")
+- [Lucide Icons](https://lucide.dev/icons/ "开源图标库")
+- [Lovable](https://lovable.dev/)
 
 ---
 
-## 🎨 设计工具
+## 😃 有趣的网站
 
-* [Figma](https://figma.com "多人协作的在线设计工具")
-* [Canva](https://www.canva.com "简单易用的平面设计工具")
-* [Coolors](https://coolors.co "配色方案生成工具")
+- [RadioCast](https://www.radiocast.co/ "Explore world radio stations")
+- [TV Garden](https://tv.garden/ "VWatch Global & Local Live TV Online for Free")
+- [iFixit](https://zh.ifixit.com/Guide "针对所有物品的修理手册")
+- [科技爱好者周刊](https://github.com/ruanyf/weekly "阮一峰出品的科技资讯周刊")
+- [PostHog](https://posthog.com/ "PostHog is for product engineers")
+- [Suno AI](https://suno.com/create "AI音乐创作")
+
+## 🌈 颜色
+
+- [Coolors](https://coolors.co "配色方案生成工具")
+- [中国传统色](https://zhongguose.com/ "中国传统色")
+- [日本传统色](https://nipponcolors.com// "NIPPON COLORS - 日本の伝統色")
 
 ---
 
-## 🤖 AI 工具
+## 🌐 建站必备
 
-* [ChatGPT](https://chat.openai.com "AI 对话助手")
-* [Claude](https://claude.ai "Anthropic 出品的AI助手")
-* [Perplexity](https://www.perplexity.ai "AI 搜索引擎")
+- [LogoSurf](https://www.logo.surf/ "Text to Logo & Favicon Generator")
+- [Emojispark](https://emojispark.com/ "Al Emoji Finder")
 
 ---
 
 ## 📚 学习资源
 
-* [MDN Web Docs](https://developer.mozilla.org "Web开发文档")
-* [W3Schools](https://www.w3schools.com "编程学习平台")
-* [LeetCode](https://leetcode.com "算法与刷题平台")
+- [LeetCode](https://leetcode.com "算法与刷题平台")
+- [Roadmaps](https://roadmap.sh/ "开发者学习路线图")
+- [CS 自学指南](https://csdiy.wiki/ "计算机自学指南")
+
+## 🎬 音影书
+
+- [人人视频](https://m.yichengwlkj.com/pc "免费+16倍速跳广告= ?")
+
+## ✍️ 作者
+
+- [DJChanahCJD](https://github.com/DJChanahCJD "DJChan's GitHub")
+- [Linux Goose](https://linux-goose.pages.dev/ "闯关式学习平台")
