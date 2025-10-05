@@ -48,7 +48,7 @@ export function WebsiteCard({ link }: WebsiteCardProps) {
             <div className="flex items-center space-x-4">
               {/* 网站图标 */}
               <div className="flex-shrink-0">
-                <div className="w-12 h-12 rounded-lg bg-gray-100 flex items-center justify-center overflow-hidden border border-gray-200">
+                <div className="w-12 h-12 rounded-lg bg-secondary/50 flex items-center justify-center overflow-hidden border border-gray-200">
                   <img
                     src={getDisplayIcon()}
                     alt={link.name}

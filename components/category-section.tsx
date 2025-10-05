@@ -27,7 +27,7 @@ export function CategorySection({ category }: CategorySectionProps) {
   return (
     <section className="mb-12 scroll-mt-20" id={category.id}>
       {/* 分类标题 */}
-      <div className="flex items-center space-x-3 mb-6 pb-2 border-b border-secondary gap-2">
+      <div className="flex items-center space-x-3 mb-4 pb-2 border-b border-secondary gap-2">
         {category.icon ? (
           category.icon
         ) : (
@@ -59,7 +59,7 @@ export function CategorySection({ category }: CategorySectionProps) {
           className="w-full"
         >
           {/* TAB列表 */}
-          <TabsList className="mb-6 overflow-x-auto flex whitespace-nowrap p-1">
+          <TabsList className="mb-2 overflow-x-auto flex whitespace-nowrap p-1 bg-gray-100/50 dark:bg-gray-800/50 rounded-lg">
             {category.subCategories.map((sub) => {
               const tabId = `${category.id}-${
                 sub.id || sub.name.toLowerCase().replace(/\s+/g, "-")
@@ -68,7 +68,7 @@ export function CategorySection({ category }: CategorySectionProps) {
                 <TabsTrigger
                   key={sub.name}
                   value={tabId}
-                  className="flex-shrink-0 px-4 py-2"
+                  className="flex-shrink-0 px-6 py-3 data-[state=active]:bg-white data-[state=active]:shadow-sm data-[state=active]:text-primary rounded-md transition-all duration-200"
                 >
                   {sub.name}
                 </TabsTrigger>
