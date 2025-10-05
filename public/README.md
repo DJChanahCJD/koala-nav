@@ -69,7 +69,7 @@
 
 ## 开源项目
 
--[Chainlit](https://chainlit.io/ "Langgraph + Chainlit + Code Server = Cursor?")
+- [Chainlit](https://chainlit.io/ "Langgraph + Chainlit + Code Server = Cursor?")
 
 ## 🎬 音影书
 

@@ -42,7 +42,7 @@ export default function Sidebar({ categories, onCategoryClick }: SidebarProps) {
         >
           <img src="/favicon.svg" alt="Koala Nav" className="w-6 h-6" />
           {!isCollapsed && (
-            <h1 className="ml-4 text-lg font-semibold text-primary truncate">
+            <h1 className="ml-3 text-lg font-semibold text-primary truncate">
               Koala Nav
             </h1>
           )}
