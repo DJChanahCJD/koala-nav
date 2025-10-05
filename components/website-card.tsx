@@ -9,6 +9,7 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
+import { useState } from "react";
 
 interface WebsiteCardProps {
   link: Link;
@@ -19,8 +20,21 @@ interface WebsiteCardProps {
  * 悬浮时显示网址
  */
 export function WebsiteCard({ link }: WebsiteCardProps) {
+  const [iconError, setIconError] = useState(false);
+  
   const handleVisit = () => {
     window.open(link.url, "_blank", "noopener,noreferrer");
+  };
+
+  const handleIconError = () => {
+    setIconError(true);
+  };
+
+  const getDisplayIcon = () => {
+    if (iconError) {
+      return "/default-favicon.svg";
+    }
+    return getFaviconFromUrl(link.url);
   };
 
   return (
@@ -36,14 +50,11 @@ export function WebsiteCard({ link }: WebsiteCardProps) {
               <div className="flex-shrink-0">
                 <div className="w-12 h-12 rounded-lg bg-gray-100 flex items-center justify-center overflow-hidden border border-gray-200">
                   <img
-                    src={getFaviconFromUrl(link.url)}
+                    src={getDisplayIcon()}
                     alt={link.name}
                     className="w-8 h-8"
-                    onError={(e) => {
-                      const target = e.target as HTMLImageElement;
-                      target.src = "/default-favicon.svg";
-                      target.onerror = null;
-                    }}
+                    onError={handleIconError}
+                    loading="lazy"
                   />
                 </div>
               </div>

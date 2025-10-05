@@ -6,8 +6,18 @@
  */
 export interface Link {
   name: string
-  description: string
   url: string
+  description?: string
+}
+
+/**
+ * 二级分类接口定义
+ * 表示一级分类下的子分类
+ */
+export interface SubCategory {
+  name: string
+  id?: string
+  links: Link[]
 }
 
 /**
@@ -16,6 +26,8 @@ export interface Link {
  */
 export interface Category {
   name: string
-  icon: string
-  links: Link[]
+  id: string
+  icon?: string
+  links?: Link[]
+  subCategories?: SubCategory[]
 }

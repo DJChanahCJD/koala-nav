@@ -54,16 +54,26 @@ export default function Sidebar({ categories, onCategoryClick }: SidebarProps) {
         <nav className="space-y-1">
           {categories.map((category) => (
             <Button
-              key={category.name}
+              key={category.id}
               variant="ghost"
               className={cn(
                 "w-full hover:bg-gray-100 transition-colors duration-150",
                 isCollapsed ? "px-2 justify-center" : "px-4 justify-start",
               )}
-              onClick={() => onCategoryClick(category.name)}
+              onClick={() => onCategoryClick(category.id)}
             >
-              <div className="flex items-center gap-x-3">
-                <span className="w-6 text-center">{category.icon}</span>
+              <div className="flex items-center gap-2">
+                {category.icon ? (
+                  <span className="w-6 text-center">{category.icon}</span>
+                ) : (
+                  <div
+                    className={
+                      "text-xs font-bold bg-primary text-primary-foreground rounded-full w-6 h-6 flex items-center justify-center"
+                    }
+                  >
+                    {category.name.charAt(0).toUpperCase()}
+                  </div>
+                )}
                 {!isCollapsed && (
                   <span className="truncate">{category.name}</span>
                 )}

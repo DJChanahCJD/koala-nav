@@ -6,8 +6,6 @@
 
 - [v0](https://v0.app/ "AI全栈设计工具")
 
-- [来个OC](https://www.givemeoc.com/ "校招岗位汇总（隐私模式下重开可白嫖）")
-
 ---
 
 ## 💻 开发工具
@@ -20,13 +18,14 @@
 ## 😃 有趣的网站
 
 - [RadioCast](https://www.radiocast.co/ "Explore world radio stations")
-- [TV Garden](https://tv.garden/ "VWatch Global & Local Live TV Online for Free")
+- [TV Garden](https://tv.garden/ "Watch Global & Local Live TV Online for Free")
 - [iFixit](https://zh.ifixit.com/Guide "针对所有物品的修理手册")
 - [科技爱好者周刊](https://github.com/ruanyf/weekly "阮一峰出品的科技资讯周刊")
 - [HelloGitHub](https://hellogithub.com/?sort_by=featured "有趣的开源社区")
 - [PostHog](https://posthog.com/ "PostHog is for product engineers")
 - [Suno AI](https://suno.com/create "AI音乐创作")
 - [JieJoe](https://www.jiejoe.com/ "HOME-JIEJOE|视觉设计者")
+- [AmericaAddress](https://www.americaaddress.com/ "随机美国地址信息")
 
 ## 🌈 颜色
 
@@ -40,6 +39,10 @@
 
 - [LogoSurf](https://www.logo.surf/ "Text to Logo & Favicon Generator")
 - [Emojispark](https://emojispark.com/ "Al Emoji Finder")
+- [Supabase](https://supabase.com/ "Open Source Firebase Alternative")
+- [Cloudflare Pages](https://pages.cloudflare.com/ "Deploy static sites on Cloudflare's global network")
+- [Resend](https://resend.com/ "Send transactional emails with ease")
+- [Awesome Cloudflare](https://cloudflare.chuhai.tools/ "发现最好的 Cloudflare 开源工具 & 文档")
 
 ## 🎨 设计工具
 
@@ -51,11 +54,18 @@
 ---
 
 ## 📚 学习资源
-
+### 学习网站
 - [LeetCode](https://leetcode.com "算法与刷题平台")
 - [Roadmaps](https://roadmap.sh/ "开发者学习路线图")
 - [CS 自学指南](https://csdiy.wiki/ "计算机自学指南")
+
+### SQL
 - [SQL 大厂笔试真题](https://www.nowcoder.com/ta/sql-big-write)
+- [SQL 必知必会](https://www.nowcoder.com/exam/oj/ta?tpId=298 "SQL 必知必会")
+
+## 🤖 AI 工具
+
+- [Musely - AI 試題生成器](https://musely.ai/zh/tools/ai-question-paper-generator "免费高效的AI题目生成器，支持多种问题类型")
 
 ## 开源项目
 
