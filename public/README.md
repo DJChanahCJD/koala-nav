@@ -12,6 +12,7 @@
 
 - [Lucide Icons](https://lucide.dev/icons/ "开源图标库")
 - [Lovable](https://lovable.dev/)
+- [GC Easy](https://gceasy.io/gc-dashboard.jsp "可视化分析GC日志")
 
 ---
 
@@ -54,19 +55,23 @@
 ---
 
 ## 📚 学习资源
+
 ### 学习网站
+
 - [LeetCode](https://leetcode.com "算法与刷题平台")
 - [Roadmaps](https://roadmap.sh/ "开发者学习路线图")
 - [CS 自学指南](https://csdiy.wiki/ "计算机自学指南")
+- [OI Wiki](https://oi-wiki.org/ "ACM竞赛知识整合站点")
 
 ### SQL
+
 - [SQL 大厂笔试真题](https://www.nowcoder.com/ta/sql-big-write)
 - [SQL 必知必会](https://www.nowcoder.com/exam/oj/ta?tpId=298 "SQL 必知必会")
 
-## 🤖 AI 工具
+### 技术文档
 
-- [Musely - AI 試題生成器](https://musely.ai/zh/tools/ai-question-paper-generator "免费高效的AI题目生成器，支持多种问题类型")
-
+- [Java 开发手册](https://developer.aliyun.com/ebook/386 "阿里巴巴Java开发手册（终极版）")
+- [阿里巴巴Redis使用规范](https://gitcode.com/Open-source-documentation-tutorial/b7581 "PDF")
 ## 开源项目
 
 - [Chainlit](https://chainlit.io/ "Langgraph + Chainlit + Code Server = Cursor?")

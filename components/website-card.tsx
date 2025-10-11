@@ -73,7 +73,8 @@ export function WebsiteCard({ link }: WebsiteCardProps) {
           </TooltipTrigger>
           {/* Tooltip 内容：网址 */}
           <TooltipContent side="bottom" className="max-w-xs break-all">
-            {link.url}
+            <div>{link.url}</div>
+            {link.description ? <div>{link.description}</div> : ""}
           </TooltipContent>
         </Tooltip>
       </CardContent>
