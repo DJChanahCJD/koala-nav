@@ -8,10 +8,15 @@
 
 ---
 
+## 🐂考公
+
+- [刘文超Vin的讲义资料](https://wenchaoedu.lanzouw.com/b0mbgscwh "密码：f687")
+- [国家公务员局](http://bm.scs.gov.cn/pp/gkweb/core/web/ui/business/home/gkhome.html "国家公务员局")
+
+
 ## 💻 开发工具
 
 - [Lucide Icons](https://lucide.dev/icons/ "开源图标库")
-- [Lovable](https://lovable.dev/)
 - [GC Easy](https://gceasy.io/gc-dashboard.jsp "可视化分析GC日志")
 
 ---
@@ -37,9 +42,16 @@
 ---
 
 ## 🌐 建站必备
+### 网站图标
 
 - [LogoSurf](https://www.logo.surf/ "Text to Logo & Favicon Generator")
 - [Emojispark](https://emojispark.com/ "Al Emoji Finder")
+- [Favicon AI](https://favicon-ai.com/ "Generate Favicon from Text")
+- [AI Logo Generator](https://www.design.com/ai-logo-generator/ "by Design.com")
+- [Artificial Intelligence Logo](https://logo.com/logos/artificial-intelligence "by Logo.com")
+- [Kalvin在线去底色](https://tools.kalvinbg.cn/image/bgRemover "by Kalvin")
+
+### 项目托管
 - [Supabase](https://supabase.com/ "Open Source Firebase Alternative")
 - [Cloudflare Pages](https://pages.cloudflare.com/ "Deploy static sites on Cloudflare's global network")
 - [Resend](https://resend.com/ "Send transactional emails with ease")
@@ -62,16 +74,24 @@
 - [Roadmaps](https://roadmap.sh/ "开发者学习路线图")
 - [CS 自学指南](https://csdiy.wiki/ "计算机自学指南")
 - [OI Wiki](https://oi-wiki.org/ "ACM竞赛知识整合站点")
+- [Hello Algo](https://www.hello-algo.com/ "Hello 算法")
+- [交大学生生存手册](https://survivesjtu.gitbook.io/survivesjtumanual/ "大学自救指南")
+- [小林coding](https://xiaolincoding.com/ "让天下没有难懂的八股文")
 
 ### SQL
 
 - [SQL 大厂笔试真题](https://www.nowcoder.com/ta/sql-big-write)
 - [SQL 必知必会](https://www.nowcoder.com/exam/oj/ta?tpId=298 "SQL 必知必会")
 
+### 教程
+- [Neo4j 教程](https://www.cainiaoya.com/neo4j/neo4j-jiaocheng.html "Neo4j 教程")
+- [Neo4j 官方文档](https://neo4j.com/docs/getting-started/ "Neo4j 官方文档")
+
 ### 技术文档
 
 - [Java 开发手册](https://developer.aliyun.com/ebook/386 "阿里巴巴Java开发手册（终极版）")
 - [阿里巴巴Redis使用规范](https://gitcode.com/Open-source-documentation-tutorial/b7581 "PDF")
+
 ## 开源项目
 
 - [Chainlit](https://chainlit.io/ "Langgraph + Chainlit + Code Server = Cursor?")
