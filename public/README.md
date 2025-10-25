@@ -12,7 +12,7 @@
 
 - [刘文超Vin的讲义资料](https://wenchaoedu.lanzouw.com/b0mbgscwh "密码：f687")
 - [国家公务员局](http://bm.scs.gov.cn/pp/gkweb/core/web/ui/business/home/gkhome.html "国家公务员局")
-
+- [求是网](https://www.qstheory.cn/ "政治理论重点")
 
 ## 💻 开发工具
 
@@ -98,7 +98,41 @@
 
 ## 🎬 音影书
 
+### 文字
+- [知乎](https://www.zhihu.com/ "知乎")
+- [豆瓣](https://www.douban.com/ "豆瓣")
+
+### 图片
+- [Pixabay Photos](https://pixabay.com/photos/ "4.2 million+ Free Stock Photos for Download")
+- [Wallhaven](https://wallhaven.cc/ "Awesome Wallpapers")
+- [Pixiv](https://www.pixiv.net/ "Pixiv")
+
+### 音频
+- [Pixabay Music](https://pixabay.com/music/ "Royalty Free Music Download")
+
+### 视频
 - [人人视频](https://m.yichengwlkj.com/pc "免费 + 16倍速跳广告 = ?")
+- [Pixabay Videos](https://pixabay.com/videos/ "Free Stock Video Footage & Video Clips")
+- [影视飓风素材库](https://www.ysjf.com/material "影视飓风素材库")
+
+### 温软香玉
+- [NiceCat](https://nicecat.cc/ "NiceCat免费漫本平台")
+- [Mangadex](https://mangadex.org/titles?page=1&onlyAvailableChapters=false&content=erotica&order=followedCount.desc "Mangadex")
+- [NovelFire](https://novelfire.net/tags/r18/order-popular "NovelFire")
+- [18comic](https://18comic.vip/albums?o=mv "18comic")
+- [jmcomic](https://jmcomic.ink/)
+- [tujixiu](https://tujixiu.cc/ "图集秀")
+- [The Porn Dude](https://theporndude.com/)
+- [ASMRGAY](http://asmrgay.com/)
+- [24av](https://24av.net/)
+- [missav](https://missav.ws/)
+- [jable](https://jable.tv/)
+- [9one](https://9one.app/)
+- [SewenXue](https://m.sewenxue.com/top_0.html)
+- [HyushuWu](https://wap.hyushuwu.com/top/goodnum_1/)
+- [集书阁成人小说](https://www.xn--1jqvh729avzfcy2d8ummib.com/)
+- [爱丽丝书屋](https://www.alicesw.com/other/rank_hits/order/hits.html)
+- [色色自由的免费R18游戏平台](https://www.playhorny.com/zh-CN)
 
 ## ✍️ 作者
 
