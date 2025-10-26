@@ -23,13 +23,10 @@
 
 ## 😃 有趣的网站
 
-- [RadioCast](https://www.radiocast.co/ "Explore world radio stations")
-- [TV Garden](https://tv.garden/ "Watch Global & Local Live TV Online for Free")
 - [iFixit](https://zh.ifixit.com/Guide "针对所有物品的修理手册")
 - [科技爱好者周刊](https://github.com/ruanyf/weekly "阮一峰出品的科技资讯周刊")
 - [HelloGitHub](https://hellogithub.com/?sort_by=featured "有趣的开源社区")
 - [PostHog](https://posthog.com/ "PostHog is for product engineers")
-- [Suno AI](https://suno.com/create "AI音乐创作")
 - [JieJoe](https://www.jiejoe.com/ "HOME-JIEJOE|视觉设计者")
 - [AmericaAddress](https://www.americaaddress.com/ "随机美国地址信息")
 
@@ -70,7 +67,6 @@
 
 ### 学习网站
 
-- [LeetCode](https://leetcode.com "算法与刷题平台")
 - [Roadmaps](https://roadmap.sh/ "开发者学习路线图")
 - [CS 自学指南](https://csdiy.wiki/ "计算机自学指南")
 - [OI Wiki](https://oi-wiki.org/ "ACM竞赛知识整合站点")
@@ -78,8 +74,10 @@
 - [交大学生生存手册](https://survivesjtu.gitbook.io/survivesjtumanual/ "大学自救指南")
 - [小林coding](https://xiaolincoding.com/ "让天下没有难懂的八股文")
 
-### SQL
+### 算法刷题
 
+- [LeetCode](https://leetcode.com "算法与刷题平台")
+- [牛客](https://www.nowcoder.com/exam/oj "牛客题库")
 - [SQL 大厂笔试真题](https://www.nowcoder.com/ta/sql-big-write)
 - [SQL 必知必会](https://www.nowcoder.com/exam/oj/ta?tpId=298 "SQL 必知必会")
 
@@ -104,23 +102,29 @@
 
 ### 图片
 - [Pixabay Photos](https://pixabay.com/photos/ "4.2 million+ Free Stock Photos for Download")
+- [Pexels](https://www.pexels.com/ "Free Stock Photos,Royalty Free Stock Images & Copyright Free Pictures")
+- [Unsplash](https://unsplash.com/ "Beautiful Free Images & Pictures")
 - [Wallhaven](https://wallhaven.cc/ "Awesome Wallpapers")
 - [Pixiv](https://www.pixiv.net/ "Pixiv")
+- [Pinterest](https://www.pinterest.com/ "Pinterest")
 
 ### 音频
 - [Pixabay Music](https://pixabay.com/music/ "Royalty Free Music Download")
+- [RadioCast](https://www.radiocast.co/ "Explore world radio stations")
+- [Spotify](https://open.spotify.com/ "Web Player: Music for everyone")
+- [Suno AI](https://suno.com/create "AI音乐创作")
 
 ### 视频
 - [人人视频](https://m.yichengwlkj.com/pc "免费 + 16倍速跳广告 = ?")
+- [TV Garden](https://tv.garden/ "Watch Global & Local Live TV Online for Free")
 - [Pixabay Videos](https://pixabay.com/videos/ "Free Stock Video Footage & Video Clips")
 - [影视飓风素材库](https://www.ysjf.com/material "影视飓风素材库")
 
-### 温软香玉
+## 💗 !温软香玉
 - [NiceCat](https://nicecat.cc/ "NiceCat免费漫本平台")
 - [Mangadex](https://mangadex.org/titles?page=1&onlyAvailableChapters=false&content=erotica&order=followedCount.desc "Mangadex")
 - [NovelFire](https://novelfire.net/tags/r18/order-popular "NovelFire")
 - [18comic](https://18comic.vip/albums?o=mv "18comic")
-- [jmcomic](https://jmcomic.ink/)
 - [tujixiu](https://tujixiu.cc/ "图集秀")
 - [The Porn Dude](https://theporndude.com/)
 - [ASMRGAY](http://asmrgay.com/)

@@ -1,29 +1,65 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useMemo } from "react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import { useIsMobile } from "@/hooks/use-mobile";
 import { Category } from "@/lib/types";
 import { Github } from "lucide-react";
 import Link from "next/link";
 
 interface SidebarProps {
+  onLogoClick: () => void;
   onCategoryClick: (categoryId: string) => void;
+  isCollapsed: boolean;
   categories: Category[];
+  showHiddenCategories?: boolean;
 }
 
-export default function Sidebar({ categories, onCategoryClick }: SidebarProps) {
-  const [isCollapsed, setIsCollapsed] = useState(false);
-  const isMobile = useIsMobile();
+// 图标组件
+const CategoryIcon = ({ category, isCollapsed }: { category: Category; isCollapsed: boolean }) => {
+  if (category.icon) {
+    return (
+      <span className={cn("w-6 text-center", isCollapsed && "mx-auto")}>
+        {category.icon}
+      </span>
+    );
+  }
 
-  useEffect(() => {
-    if (isMobile) {
-      setIsCollapsed(true);
+  return (
+    <div className="text-xs font-bold bg-primary text-primary-foreground rounded-full w-6 h-6 flex items-center justify-center">
+      {category.name.charAt(0).toUpperCase()}
+    </div>
+  );
+};
+
+// 过滤分类的辅助函数
+const filterCategories = (categories: Category[], showHidden: boolean) => {
+  return categories.filter(category => {
+    if (category.name.startsWith('!')) {
+      return showHidden;
     }
-  }, [isMobile]);
+    return true;
+  });
+};
 
+// 处理分类名称显示
+const getDisplayName = (name: string) => 
+  name.startsWith('!') ? name.substring(1) : name;
+
+export default function Sidebar({ 
+  categories, 
+  onLogoClick, 
+  onCategoryClick, 
+  isCollapsed, 
+  showHiddenCategories = false 
+}: SidebarProps) {
+  // 使用 useMemo 缓存过滤后的分类列表
+  const filteredCategories = useMemo(
+    () => filterCategories(categories, showHiddenCategories),
+    [categories, showHiddenCategories]
+  );
+ 
   return (
     <div
       className={cn(
@@ -37,7 +73,7 @@ export default function Sidebar({ categories, onCategoryClick }: SidebarProps) {
         <Button
           variant="ghost"
           size="sm"
-          onClick={() => setIsCollapsed(!isCollapsed)}
+          onClick={onLogoClick}
           className="flex items-center w-full text-gray-500 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-800"
         >
           <img src="/favicon.svg" alt="Koala Nav" className="w-6 h-6" />
@@ -52,7 +88,7 @@ export default function Sidebar({ categories, onCategoryClick }: SidebarProps) {
       {/* 中间导航区（可滚动） */}
       <ScrollArea className="flex-1 px-2 py-4">
         <nav className="space-y-1">
-          {categories.map((category) => (
+          {filteredCategories.map((category) => (
             <Button
               key={category.id}
               variant="ghost"
@@ -62,20 +98,12 @@ export default function Sidebar({ categories, onCategoryClick }: SidebarProps) {
               )}
               onClick={() => onCategoryClick(category.id)}
             >
-              <div className="flex items-center gap-2">
-                {category.icon ? (
-                  <span className="w-6 text-center">{category.icon}</span>
-                ) : (
-                  <div
-                    className={
-                      "text-xs font-bold bg-primary text-primary-foreground rounded-full w-6 h-6 flex items-center justify-center"
-                    }
-                  >
-                    {category.name.charAt(0).toUpperCase()}
-                  </div>
-                )}
+              <div className={cn("flex items-center gap-2", isCollapsed && "justify-center")}>
+                <CategoryIcon category={category} isCollapsed={isCollapsed} />
                 {!isCollapsed && (
-                  <span className="truncate">{category.name}</span>
+                  <span className="truncate">
+                    {getDisplayName(category.name)}
+                  </span>
                 )}
               </div>
             </Button>
