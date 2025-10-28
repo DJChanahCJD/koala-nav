@@ -99,6 +99,7 @@
 ### 文字
 - [知乎](https://www.zhihu.com/ "知乎")
 - [豆瓣](https://www.douban.com/ "豆瓣")
+- [​Z-Library](https://zh.z-library.sk/ "世界上最大的免费电子书库")
 
 ### 图片
 - [Pixabay Photos](https://pixabay.com/photos/ "4.2 million+ Free Stock Photos for Download")
@@ -120,23 +121,34 @@
 - [Pixabay Videos](https://pixabay.com/videos/ "Free Stock Video Footage & Video Clips")
 - [影视飓风素材库](https://www.ysjf.com/material "影视飓风素材库")
 
-## 💗 !温软香玉
-- [NiceCat](https://nicecat.cc/ "NiceCat免费漫本平台")
-- [Mangadex](https://mangadex.org/titles?page=1&onlyAvailableChapters=false&content=erotica&order=followedCount.desc "Mangadex")
+## 💗 !NSFW
+
+### 小说
+- [Alicesw](https://www.alicesw.com/other/rank_hits/order/hits.html "爱丽丝书屋")
+- [SewenXue](https://m.sewenxue.com/top_0.html "色文学")
 - [NovelFire](https://novelfire.net/tags/r18/order-popular "NovelFire")
-- [18comic](https://18comic.vip/albums?o=mv "18comic")
+- [Mangadex](https://mangadex.org/titles?page=1&onlyAvailableChapters=false&content=erotica&order=followedCount.desc "Mangadex")
+
+### 图片
 - [tujixiu](https://tujixiu.cc/ "图集秀")
-- [The Porn Dude](https://theporndude.com/)
-- [ASMRGAY](http://asmrgay.com/)
-- [24av](https://24av.net/)
-- [missav](https://missav.ws/)
-- [jable](https://jable.tv/)
-- [9one](https://9one.app/)
-- [SewenXue](https://m.sewenxue.com/top_0.html)
-- [HyushuWu](https://wap.hyushuwu.com/top/goodnum_1/)
-- [集书阁成人小说](https://www.xn--1jqvh729avzfcy2d8ummib.com/)
-- [爱丽丝书屋](https://www.alicesw.com/other/rank_hits/order/hits.html)
-- [色色自由的免费R18游戏平台](https://www.playhorny.com/zh-CN)
+
+### 漫画
+- [NiceCat](https://nicecat.cc/ "NiceCat免费漫本平台")
+- [18comic](https://18comic.vip/albums?o=mv "禁漫天堂")
+- [MyComic](https://mycomic.com/ "MyComic")
+
+### 音频
+- [ASMRGAY](http://asmrgay.com/ "ASMR基佬中心")
+
+### 视频
+- [24av](https://24av.net/ "24av")
+- [missav](https://missav.ws/ "missav")
+- [jable](https://jable.tv/ "Jable")
+- [9one](https://9one.app/ "9one")
+
+### 其他
+- [The Porn Dude](https://theporndude.com/ "The Porn Dude")
+
 
 ## ✍️ 作者
 
