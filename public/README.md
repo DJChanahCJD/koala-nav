@@ -131,23 +131,30 @@
 
 ### 图片
 - [tujixiu](https://tujixiu.cc/ "图集秀")
+- [BestGirlSexy](https://bestgirlsexy.com/ "BestGirlSexy")
+- [xsnvshen](https://www.xsnvshen.com/ "秀色女神")
+- [xiutaku](https://xiutaku.com/ "xiutaku")
+- [Pixiv R18](https://www.pixiv.net/ranking.php?mode=weekly_r18 "Pixiv R18")
+- [4KHD](https://aynzl.uuss.uk/pages/popular "HD Beautiful Girls")
+- [8K Cosplay](https://www.8kcosplay.com/ "8k CosplayZone")
 
 ### 漫画
 - [NiceCat](https://nicecat.cc/ "NiceCat免费漫本平台")
 - [18comic](https://18comic.vip/albums?o=mv "禁漫天堂")
 - [MyComic](https://mycomic.com/ "MyComic")
+- [ManyToon](https://manytoon.com/ "ManyToon")
 
 ### 音频
 - [ASMRGAY](http://asmrgay.com/ "ASMR基佬中心")
+- [Japanese ASMR](https://japaneseasmr.com/)
+- [ASMR One](https://www.asmr.one/)
+- [AudioLove](https://audio.love/)
 
 ### 视频
 - [24av](https://24av.net/ "24av")
 - [missav](https://missav.ws/ "missav")
 - [jable](https://jable.tv/ "Jable")
 - [9one](https://9one.app/ "9one")
-
-### 其他
-- [The Porn Dude](https://theporndude.com/ "The Porn Dude")
 
 
 ## ✍️ 作者

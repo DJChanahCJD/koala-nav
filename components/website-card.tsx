@@ -66,7 +66,7 @@ export function WebsiteCard({ link }: WebsiteCardProps) {
                 </h3>
 
                 <p className="text-sm text-gray-600 line-clamp-1 leading-relaxed dark:text-gray-400">
-                  {link.description || "..."}
+                  {link.description || link.name}
                 </p>
               </div>
             </div>
