@@ -75,7 +75,7 @@ export default function HomePage() {
   
   const onLogoClick = useCallback(() => {
     setIsCollapsed(prev => !prev);
-    setIsLogoClicked(true);
+    setIsLogoClicked(Math.random() < 0.2); // 20% 概率触发点击事件，显示隐藏分类
   }, []);
   
   const showHiddenCategories = useMemo(() => isCollapsed && isLogoClicked, [isCollapsed, isLogoClicked]);
