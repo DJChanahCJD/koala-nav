@@ -48,6 +48,11 @@
 - [Artificial Intelligence Logo](https://logo.com/logos/artificial-intelligence "by Logo.com")
 - [Kalvin在线去底色](https://tools.kalvinbg.cn/image/bgRemover "by Kalvin")
 
+### 常用API
+
+- [DiceBear](https://api.dicebear.com/9.x/avataaars/svg?seed=xxx "随机头像生成器")
+- [Picsum Photos](https://picsum.photos/320/180 "随机占位图")
+
 ### 项目托管
 - [Supabase](https://supabase.com/ "Open Source Firebase Alternative")
 - [Cloudflare Pages](https://pages.cloudflare.com/ "Deploy static sites on Cloudflare's global network")
