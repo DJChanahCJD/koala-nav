@@ -6,6 +6,7 @@ import { Analytics } from "@vercel/analytics/next";
 import { Suspense } from "react";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
+import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
   title: "Koala Nav",
@@ -30,6 +31,7 @@ export default function RootLayout({
           <Suspense fallback={<div>Loading...</div>}>{children}</Suspense>
         </ThemeProvider>
         <Analytics />
+        <Toaster />
       </body>
     </html>
   );

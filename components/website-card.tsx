@@ -6,10 +6,11 @@ import { getFaviconFromUrl } from "@/lib/utils";
 import {
   Tooltip,
   TooltipContent,
-  TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
 import { useState } from "react";
+import { CopyIcon } from "lucide-react";
+import { toast } from "@/hooks/use-toast";
 
 interface WebsiteCardProps {
   link: Link;
@@ -21,13 +22,39 @@ interface WebsiteCardProps {
  */
 export function WebsiteCard({ link }: WebsiteCardProps) {
   const [iconError, setIconError] = useState(false);
-  
+
   const handleVisit = () => {
     window.open(link.url, "_blank", "noopener,noreferrer");
   };
 
   const handleIconError = () => {
     setIconError(true);
+  };
+
+  const handleCopyUrl = async (e: React.MouseEvent) => {
+    e.stopPropagation(); // 阻止事件冒泡，避免触发点击卡片跳转
+
+    try {
+      await navigator.clipboard.writeText(link.url);
+
+      toast({
+        title: "网址复制成功",
+        description: link.url,
+      });
+    } catch (err) {
+      console.error("复制失败: ", err);
+      // 降级方案
+      const textArea = document.createElement("textarea");
+      textArea.value = link.url;
+      document.body.appendChild(textArea);
+      textArea.select();
+      document.execCommand("copy");
+      document.body.removeChild(textArea);
+      toast({
+        title: "复制失败",
+        description: "请手动复制网址",
+      });
+    }
   };
 
   const getDisplayIcon = () => {
@@ -38,14 +65,11 @@ export function WebsiteCard({ link }: WebsiteCardProps) {
   };
 
   return (
-    <Card
-      className="group hover:shadow-md py-2 transition-all duration-200 cursor-pointer bg-white border-gray-200 hover:border-gray-300"
-      onClick={handleVisit}
-    >
+    <Card className="group hover:shadow-md py-2 transition-all duration-200 cursor-pointer bg-white border-gray-200 hover:border-gray-300">
       <CardContent className="px-2">
         <Tooltip>
           <TooltipTrigger asChild>
-            <div className="flex items-center space-x-4">
+            <div className="flex items-center space-x-4" onClick={handleVisit}>
               {/* 网站图标 */}
               <div className="flex-shrink-0">
                 <div className="w-12 h-12 rounded-lg bg-secondary/50 flex items-center justify-center overflow-hidden border border-gray-200">
@@ -72,9 +96,20 @@ export function WebsiteCard({ link }: WebsiteCardProps) {
             </div>
           </TooltipTrigger>
           {/* Tooltip 内容：网址 */}
-          <TooltipContent side="bottom" className="max-w-xs break-all">
-            <div>{link.url}</div>
-            {link.description ? <div>{link.description}</div> : ""}
+          <TooltipContent side="bottom" className="break-all">
+            <div>
+              {link.url}
+              <span>
+                <button
+                  onClick={handleCopyUrl}
+                  className="ml-2"
+                  aria-label="复制网址"
+                >
+                  <CopyIcon className="w-3 h-3" />
+                </button>
+              </span>
+            </div>
+            {link.description || ""}
           </TooltipContent>
         </Tooltip>
       </CardContent>
