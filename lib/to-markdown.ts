@@ -13,7 +13,7 @@ export function toMarkdown(categories: any[]): string {
     // 处理一级分类下的链接
     if (category.links && category.links.length > 0) {
       category.links.forEach((link: any) => {
-        markdown += `- [${link.name}](${link.url})${link.description ? ` - ${link.description}` : ''}\n`
+        markdown += `- [${link.name}](${link.url}${link.description ? ` "${link.description}"` : ''})\n`
       })
       markdown += '\n'
     }
@@ -26,7 +26,7 @@ export function toMarkdown(categories: any[]): string {
         // 处理二级分类下的链接
         if (subCategory.links && subCategory.links.length > 0) {
           subCategory.links.forEach((link: any) => {
-            markdown += `- [${link.name}](${link.url})${link.description ? ` - ${link.description}` : ''}\n`
+            markdown += `- [${link.name}](${link.url}${link.description ? ` "${link.description}"` : ''})\n`
           })
           markdown += '\n'
         }

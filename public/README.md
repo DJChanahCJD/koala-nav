@@ -1,14 +1,9 @@
-# Koala Nav
-
 ## 🌟 编辑精选
 
 - [Webstack](https://webstack.cc/ "设计师网址导航")
-
 - [v0](https://v0.app/ "AI全栈设计工具")
 
----
-
-## 🐂考公
+## 🐂 考公
 
 - [刘文超Vin的讲义资料](https://wenchaoedu.lanzouw.com/b0mbgscwh "密码：f687")
 - [国家公务员局](http://bm.scs.gov.cn/pp/gkweb/core/web/ui/business/home/gkhome.html "国家公务员局")
@@ -18,8 +13,6 @@
 
 - [Lucide Icons](https://lucide.dev/icons/ "开源图标库")
 - [GC Easy](https://gceasy.io/gc-dashboard.jsp "可视化分析GC日志")
-
----
 
 ## 😃 有趣的网站
 
@@ -36,9 +29,8 @@
 - [中国传统色](https://zhongguose.com/ "中国传统色")
 - [日本传统色](https://nipponcolors.com/ "NIPPON COLORS - 日本の伝統色")
 
----
-
 ## 🌐 建站必备
+
 ### 网站图标
 
 - [LogoSurf](https://www.logo.surf/ "Text to Logo & Favicon Generator")
@@ -54,6 +46,7 @@
 - [Picsum Photos](https://picsum.photos/320/180 "随机占位图")
 
 ### 项目托管
+
 - [Supabase](https://supabase.com/ "Open Source Firebase Alternative")
 - [Cloudflare Pages](https://pages.cloudflare.com/ "Deploy static sites on Cloudflare's global network")
 - [Resend](https://resend.com/ "Send transactional emails with ease")
@@ -65,8 +58,6 @@
 - [GSAP](https://gsap.com/ "A JavaScript library for creating animations")
 - [Matter.js](https://brm.io/matter-js/ "A 2D physics engine for the web")
 - [Three.js](https://threejs.org/ "A JavaScript library for creating 3D graphics in the browser")
-
----
 
 ## 📚 学习资源
 
@@ -87,6 +78,7 @@
 - [SQL 必知必会](https://www.nowcoder.com/exam/oj/ta?tpId=298 "SQL 必知必会")
 
 ### 教程
+
 - [Neo4j 教程](https://www.cainiaoya.com/neo4j/neo4j-jiaocheng.html "Neo4j 教程")
 - [Neo4j 官方文档](https://neo4j.com/docs/getting-started/ "Neo4j 官方文档")
 
@@ -95,18 +87,20 @@
 - [Java 开发手册](https://developer.aliyun.com/ebook/386 "阿里巴巴Java开发手册（终极版）")
 - [阿里巴巴Redis使用规范](https://gitcode.com/Open-source-documentation-tutorial/b7581 "PDF")
 
-## 开源项目
+##  开源项目
 
 - [Chainlit](https://chainlit.io/ "Langgraph + Chainlit + Code Server = Cursor?")
 
 ## 🎬 音影书
 
 ### 文字
+
 - [知乎](https://www.zhihu.com/ "知乎")
 - [豆瓣](https://www.douban.com/ "豆瓣")
 - [​Z-Library](https://zh.z-library.sk/ "世界上最大的免费电子书库")
 
 ### 图片
+
 - [Pixabay Photos](https://pixabay.com/photos/ "4.2 million+ Free Stock Photos for Download")
 - [Pexels](https://www.pexels.com/ "Free Stock Photos,Royalty Free Stock Images & Copyright Free Pictures")
 - [Unsplash](https://unsplash.com/ "Beautiful Free Images & Pictures")
@@ -115,14 +109,15 @@
 - [Pinterest](https://www.pinterest.com/ "Pinterest")
 
 ### 音频
+
 - [Pixabay Music](https://pixabay.com/music/ "Royalty Free Music Download")
 - [RadioCast](https://www.radiocast.co/ "Explore world radio stations")
 - [Spotify](https://open.spotify.com/ "Web Player: Music for everyone")
 - [Suno AI](https://suno.com)
 - [Tunee](https://www.tunee.ai/)
 
-
 ### 视频
+
 - [人人视频](https://m.yichengwlkj.com/pc "免费 + 16倍速跳广告 = ?")
 - [TV Garden](https://tv.garden/ "Watch Global & Local Live TV Online for Free")
 - [Pixabay Videos](https://pixabay.com/videos/ "Free Stock Video Footage & Video Clips")
@@ -132,3 +127,4 @@
 
 - [DJChanahCJD](https://github.com/DJChanahCJD "DJChan's GitHub")
 - [Linux Goose](https://linux-goose.pages.dev/ "闯关式学习平台")
+
