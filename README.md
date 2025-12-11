@@ -2,7 +2,6 @@
 
 - [Webstack](https://webstack.cc/) - 设计师网址导航
 - [v0](https://v0.app/) - AI全栈设计工具
-- [1](1) - 1
 
 ## 🐂 考公
 
@@ -23,6 +22,7 @@
 - [PostHog](https://posthog.com/) - PostHog is for product engineers
 - [JieJoe](https://www.jiejoe.com/) - HOME-JIEJOE|视觉设计者
 - [AmericaAddress](https://www.americaaddress.com/) - 随机美国地址信息
+- [游戏设计模式](https://gpp.tkchu.me/design-patterns-revisited.html) - 重访设计模式 · 游戏设计模式
 
 ## 🌈 颜色
 
