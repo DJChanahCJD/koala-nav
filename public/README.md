@@ -126,6 +126,11 @@
 ### 游戏
 
 - [ACG俱乐部](https://www.acgjlb.cc/)
+- [TouchGal](https://www.touchgal.us/ "一站式Galgame文化社区！")
+- [Steam Galgame](https://steamgalgame.com/ "Steam上的中文Galgame")
+- [2025年GAL/ACG网站排行榜](https://16map.com/rankings/sites/gal-acgyouxi "by 一流导航")
+- [CnGal](https://www.cngal.org/ "中文GalGame资料站")
+- [Hikarinagi](https://www.hikarinagi.org/)
 
 ## 💗 !NSFW
 
