@@ -6,7 +6,7 @@ import { toast } from 'sonner'
 export const GH_API = 'https://api.github.com'
 
 function handle401Error(): void {
-	if (typeof sessionStorage === 'undefined') return
+	if (typeof localStorage === 'undefined') return
 	try {
 		// 清除认证状态
 		const authStore = require('../hooks/use-auth').useAuthStore
