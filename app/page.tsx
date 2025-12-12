@@ -110,41 +110,30 @@ export default function HomePage() {
 
   // 处理配置 GitHub App ID 和私钥
   const handleConfigureAuth = () => {
-    // 显示私钥导入选项
-    const choice = confirm("选择私钥文件，点击取消则手动输入私钥。");
-    if (choice) {
-      // 触发文件选择
-      const fileInput = document.createElement('input');
-      fileInput.type = 'file';
-      fileInput.accept = '.pem,.key,text/plain';
-      fileInput.onchange = (event) => {
-        const file = event.target.files?.[0];
-        if (file) {
-          const reader = new FileReader();
-          reader.onload = (e) => {
-            const content = e.target?.result as string;
-            if (content) {
-              setPrivateKey(content);
-              toast.success("私钥导入成功");
-              setIsEditPanelOpen(true);
-            }
-          };
-          reader.readAsText(file);
-        }
-        // 重置文件输入
-        event.target.value = '';
-      };
-      fileInput.click();
-    } else {
-      // 提示用户输入私钥
-      const privateKey = prompt("请输入 GitHub App 私钥:");
-      if (privateKey) {
-        setPrivateKey(privateKey);
-        setIsEditPanelOpen(true);
-      } else {
-        toast.error("需要私钥才能编辑");
+    toast.info("请先导入 GitHub App 私钥");
+    // 直接触发文件选择
+    const fileInput = document.createElement('input');
+    fileInput.type = 'file';
+    fileInput.accept = '.pem,.key,text/plain';
+
+    fileInput.onchange = (event) => {
+      const file = event.target.files?.[0];
+      if (file) {
+        const reader = new FileReader();
+        reader.onload = (e) => {
+          const content = e.target?.result as string;
+          if (content) {
+            setPrivateKey(content);
+            toast.success("私钥导入成功");
+            setIsEditPanelOpen(true);
+          }
+        };
+        reader.readAsText(file);
       }
-    }
+      // 重置文件输入
+      event.target.value = '';
+    };
+    fileInput.click();
   };
 
   // 处理编辑按钮点击
