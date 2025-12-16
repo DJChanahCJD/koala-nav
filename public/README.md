@@ -179,7 +179,7 @@
 - [jable](https://jable.tv/ "Jable")
 - [9one](https://9one.app/ "9one")
 
-## ✍️ 作者
+## ✍️ !作者
 
 - [DJChanahCJD](https://github.com/DJChanahCJD "DJChan's GitHub")
 - [Linux Goose](https://linux-goose.pages.dev/ "闯关式学习平台")
