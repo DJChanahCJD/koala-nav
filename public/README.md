@@ -126,6 +126,11 @@
 ### 游戏
 
 - [ACG俱乐部](https://www.acgjlb.cc/)
+- [TouchGal](https://www.touchgal.us/ "一站式Galgame文化社区！")
+- [Steam Galgame](https://steamgalgame.com/ "Steam上的中文Galgame")
+- [2025年GAL/ACG网站排行榜](https://16map.com/rankings/sites/gal-acgyouxi "by 一流导航")
+- [CnGal](https://www.cngal.org/ "中文GalGame资料站")
+- [Hikarinagi](https://www.hikarinagi.org/)
 
 ## 💗 !NSFW
 
@@ -145,6 +150,13 @@
 - [Pixiv R18](https://www.pixiv.net/ranking.php?mode=weekly_r18 "Pixiv R18")
 - [4KHD](https://aynzl.uuss.uk/pages/popular "HD Beautiful Girls")
 - [8K Cosplay](https://www.8kcosplay.com/ "8k CosplayZone")
+- [梁山泊](https://www.lsp.pw)
+- [HotGirl](https://www.hotgirl2024.com/)
+- [Image Extractor](https://extract.pics/)
+- [微博美女](http://www.weibomn.com/ "收集微博中的美女图片！")
+- [学姐吧妹子图](https://xuejieba1.com/tag/meizitu)
+- [Sexy Pet](https://sexypet.co.kr/board/gallery/list.html )
+- [脚フェチGallery](https://legs.a-hadaka.jp/)
 
 ### 漫画
 

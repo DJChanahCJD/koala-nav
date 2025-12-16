@@ -2,6 +2,7 @@
 
 import Sidebar from "@/components/sidebar";
 import { CategorySection } from "@/components/category-section";
+import { CategoryDialog } from "@/components/category-dialog";
 import { EditPanel } from "@/components/edit-panel";
 import { useState, useEffect, useMemo, useCallback } from "react";
 import { parseMarkdown } from "@/lib/parseMarkdown";
@@ -9,6 +10,8 @@ import { Category } from "@/lib/types";
 import { useIsMobile } from "@/hooks/use-mobile";
 import { Button } from "@/components/ui/button";
 import { useAuthStore } from "@/hooks/use-auth";
+import { useEditStore } from "@/lib/edit-store";
+import { syncToGitHub } from "@/lib/sync-to-github";
 import { toast, Toaster } from "sonner";
 
 /**
@@ -75,10 +78,28 @@ export default function HomePage() {
   const { categories, loading, error } = useCategoriesData();
   const [isCollapsed, setIsCollapsed] = useState(true);
   const [isLogoClicked, setIsLogoClicked] = useState(false);
+  const [isEditMode, setIsEditMode] = useState(false);
   const [isEditPanelOpen, setIsEditPanelOpen] = useState(false);
+  const [isAddCategoryDialogOpen, setIsAddCategoryDialogOpen] = useState(false);
+  const [newCategory, setNewCategory] = useState({ name: '', icon: '' });
   const isMobile = useIsMobile();
   
   const { isAuth, setPrivateKey } = useAuthStore();
+  const { 
+    setCategories, 
+    addCategory, 
+    updateCategory, 
+    deleteCategory,
+    addSubCategory,
+    updateSubCategory
+  } = useEditStore();
+  
+  // 初始化编辑状态的分类数据
+  useEffect(() => {
+    if (isEditMode) {
+      setCategories(categories);
+    }
+  }, [categories, setCategories, isEditMode]);
   
   const onLogoClick = useCallback(() => {
     setIsCollapsed(prev => !prev);
@@ -125,7 +146,7 @@ export default function HomePage() {
           if (content) {
             setPrivateKey(content);
             toast.success("私钥导入成功");
-            setIsEditPanelOpen(true);
+            // setIsEditMode(true);
           }
         };
         reader.readAsText(file);
@@ -142,9 +163,42 @@ export default function HomePage() {
       // 显示配置选项
       handleConfigureAuth();
     } else {
+      setIsEditMode(true);
+    }
+  };
+
+  // 处理编辑按钮点击
+  const handleEditPanelClick = () => {
+    if (!isAuth) {
+      // 显示配置选项
+      handleConfigureAuth();
+    } else {
       setIsEditPanelOpen(true);
     }
   };
+
+  // 处理取消编辑
+  const handleCancelEdit = () => {
+    setIsEditMode(false);
+  };
+
+  // 处理同步到 GitHub
+  const handleSyncToGitHub = async () => {
+    const { privateKey } = useAuthStore.getState();
+    if (!privateKey) {
+      toast.error('请先设置 GitHub App 私钥');
+      return;
+    }
+    
+    const latestCategories = useEditStore.getState().categories;
+    const success = await syncToGitHub(latestCategories, privateKey);
+    if (success) {
+      setIsEditMode(false);
+    }
+  };
+
+  // 获取最新的分类数据
+  const latestCategories = useEditStore(state => state.categories);
 
   // 根据不同状态渲染内容
   if (loading) return renderState("加载中...");
@@ -154,22 +208,83 @@ export default function HomePage() {
   return (
     <div className="flex h-full bg-background">
       <Sidebar categories={categories} onLogoClick={onLogoClick} onCategoryClick={scrollToCategory} isCollapsed={isCollapsed} showHiddenCategories={showHiddenCategories} />
-      <div className="flex-1">
-        <div className="p-6 w-full mx-auto">
-          {/* 编辑按钮 */}
-          <div className="flex justify-end">
-            <Button onClick={handleEditClick} variant="default">
-              编辑
-            </Button>
+      <div className={`flex-1 transition-all duration-500 ease-in-out ${isEditMode ? 'bg-secondary/10' : ''}`}>
+        <div className="p-6 w-full mx-auto transition-all duration-500 ease-in-out">
+          {/* 编辑相关按钮 */}
+          <div className="flex justify-end items-center gap-2 mb-6">
+            {isEditMode ? (
+              <>
+                <div className="flex justify-between w-full">
+                    <Button onClick={handleSyncToGitHub} variant="default">
+                      同步到Github
+                    </Button>
+                  <div className="flex gap-2">
+                    {/* 添加新分类对话框 */}
+                    <CategoryDialog
+                      open={isAddCategoryDialogOpen}
+                      onOpenChange={setIsAddCategoryDialogOpen}
+                      title="添加新分类"
+                      confirmText="添加"
+                      category={newCategory}
+                      onConfirm={(category) => {
+                        if (category.name?.trim()) {
+                          addCategory({
+                            name: category.name,
+                            icon: category.icon || '',
+                            id: category.name.toLowerCase().replace(/\s+/g, '-'),
+                            links: [],
+                            subCategories: []
+                          });
+                          setNewCategory({ name: '', icon: '' });
+                        }
+                      }}
+                      trigger={
+                        <Button variant="outline">
+                          新增分类
+                        </Button>
+                      }
+                    />
+                    <Button onClick={handleCancelEdit} variant="secondary">
+                      取消
+                    </Button>
+                  </div>
+                </div>
+              </>
+            ) : (
+              <>
+              <Button onClick={handleEditPanelClick} variant="default">
+                旧版编辑
+              </Button>
+              <Button onClick={handleEditClick} variant="default">
+                编辑
+              </Button>
+              </>
+            )}
           </div>
           
-          {filteredCategories.map((category) => (
-            <CategorySection key={category.id} category={{ ...category, name: getDisplayName(category.name) }} />
-          ))}
+          {isEditMode ? (
+            // 编辑模式下传递原始分类名称，保留"!"标记
+            latestCategories.map((category, index) => (
+              <CategorySection 
+                key={category.id} 
+                category={category} 
+                isEditMode={isEditMode}
+                onEdit={(updatedCategory) => updateCategory(index, updatedCategory)}
+                onDelete={() => deleteCategory(index)}
+                onAddSubCategory={(categoryIndex, subCategory) => addSubCategory(index, subCategory)}
+                onUpdateSubCategory={(categoryIndex, subCategoryIndex, subCategory) => updateSubCategory(index, subCategoryIndex, subCategory)}
+              />
+            ))
+          ) : (
+            // 非编辑模式下显示处理后的分类名称，移除"!"标记
+            filteredCategories.map((category) => (
+              <CategorySection key={category.id} category={{ ...category, name: getDisplayName(category.name) }} />
+            ))
+          )}
         </div>
       </div>
-      
-      {/* 编辑面板 */}
+
+      {/* 旧入口: 编辑面板 */}
       {isEditPanelOpen && (
         <EditPanel
           categories={categories}
