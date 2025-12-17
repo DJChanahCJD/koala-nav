@@ -23,6 +23,8 @@ interface WebsiteCardProps {
 export function WebsiteCard({ link }: WebsiteCardProps) {
   const [iconError, setIconError] = useState(false);
 
+  const maxUrlLength = 60;
+
   const handleVisit = () => {
     window.open(link.url, "_blank", "noopener,noreferrer");
   };
@@ -39,7 +41,7 @@ export function WebsiteCard({ link }: WebsiteCardProps) {
 
       toast({
         title: "网址复制成功",
-        description: link.url,
+        description: link.url.length > maxUrlLength ? `${link.url.slice(0, maxUrlLength)}…` : link.url,
       });
     } catch (err) {
       console.error("复制失败: ", err);
@@ -98,8 +100,8 @@ export function WebsiteCard({ link }: WebsiteCardProps) {
           {/* Tooltip 内容：网址 */}
           <TooltipContent side="bottom" className="break-all">
             <div>
-              {link.url}
-              <span>
+              {link.url.length > maxUrlLength ? `${link.url.slice(0, maxUrlLength)}…` : link.url}
+              <>
                 <button
                   onClick={handleCopyUrl}
                   className="ml-2"
@@ -107,7 +109,7 @@ export function WebsiteCard({ link }: WebsiteCardProps) {
                 >
                   <CopyIcon className="w-3 h-3" />
                 </button>
-              </span>
+              </>
             </div>
             {link.description || ""}
           </TooltipContent>
