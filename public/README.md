@@ -132,6 +132,15 @@
 - [CnGal](https://www.cngal.org/ "中文GalGame资料站")
 - [Hikarinagi](https://www.hikarinagi.org/)
 
+
+## 💇‍♂️ 假发
+
+- [蜂花护发素1L](https://item.taobao.com/item.htm?abbucket=6&id=900933619310&mi_id=00000zy6n3EICZIokzrtmjPmI-2DxnnWqzdZtGHKEVybyjI&ns=1&priceTId=213e028417656827152211258e0f09&skuId=5925685851214&spm=a21n57.1.hoverItem.2&utparam=%7B%22aplus_abtest%22%3A%22d1bbbc1c253956944235e16c0b8c0f98%22%7D&xxc=taobaoSearch)
+- [飘柔双效水润洁顺洗发露1L](https://item.taobao.com/item.htm?abbucket=6&id=698843169162&mi_id=0000CGGGrJejy020Ao_YGxepxbuVFxZlG4g59ZqX0TD__XI&ns=1&priceTId=2147bf9f17656833840827025e1966&skuId=5024931940891&spm=a21n57.1.hoverItem.3&utparam=%7B%22aplus_abtest%22%3A%22819ad844c892ffa46eb7aba95b2b0d7c%22%7D&xxc=taobaoSearch "不要【强力去油去屑】即可")
+- [日本浅香发膜](https://item.taobao.com/item.htm?abbucket=6&id=693555809750&mi_id=0000B17k94nf0aE2Xl6pA1GKWTmSgdBDlAXsEI6WMftvjJI&ns=1&priceTId=213e092017656836607943054e1768&skuId=5098915383750&spm=a21n57.1.hoverItem.12&utparam=%7B%22aplus_abtest%22%3A%220908334a367d046b48b4dfda194d6b14%22%7D&xxc=taobaoSearch "补充发丝营养用【参考价：28元/200ml】")
+- [假发胶片](https://s.taobao.com/search?commend=all&ie=utf8&initiative_id=tbindexz_20170306&page=1&preLoadOrigin=https%3A%2F%2Fwww.taobao.com&q=%E5%81%87%E5%8F%91%E8%83%B6%E7%89%87&search_type=item&sourceId=tb.index&spm=a21bo.jianhua%2Fa.search_manual.0&ssid=s5-e&tab=all "待定")
+- [去胶棉](https://item.taobao.com/item.htm?abbucket=6&id=742653642365&mi_id=0000M5AZ2Ey9C2IWK5lwVN2a-ZbQ6zbcplIe-Ryaw8jtAB8&ns=1&priceTId=213e092017656837949637330e1768&spm=a21n57.1.hoverItem.2&utparam=%7B%22aplus_abtest%22%3A%22d0d17e99581d7eb804e607e48888ee0d%22%7D&xxc=taobaoSearch "参考价：21元/盒（40片）")
+
 ## 💗 !NSFW
 
 ### 小说
