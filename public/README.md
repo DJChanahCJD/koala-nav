@@ -116,6 +116,8 @@
 - [Spotify](https://open.spotify.com/ "Web Player: Music for everyone")
 - [Suno AI](https://suno.com)
 - [Tunee](https://www.tunee.ai/)
+- [GD Studio](https://music.gdstudio.org/ "免费音乐聚合平台")
+- [Listen1](https://listen1.github.io/listen1/ "Listen in One Platform")
 
 ### 视频
 
