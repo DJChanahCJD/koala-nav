@@ -2,6 +2,7 @@
 
 - [Webstack](https://webstack.cc/ "设计师网址导航")
 - [v0](https://v0.app/ "AI全栈设计工具")
+- [linux.do](https://linux.do/ "新的理想型社区")
 
 ## 🐂 考公
 
@@ -132,7 +133,6 @@
 - [CnGal](https://www.cngal.org/ "中文GalGame资料站")
 - [Hikarinagi](https://www.hikarinagi.org/)
 
-
 ## 💇‍♂️ 假发
 
 - [蜂花护发素1L](https://item.taobao.com/item.htm?abbucket=6&id=900933619310&mi_id=00000zy6n3EICZIokzrtmjPmI-2DxnnWqzdZtGHKEVybyjI&ns=1&priceTId=213e028417656827152211258e0f09&skuId=5925685851214&spm=a21n57.1.hoverItem.2&utparam=%7B%22aplus_abtest%22%3A%22d1bbbc1c253956944235e16c0b8c0f98%22%7D&xxc=taobaoSearch)
@@ -164,7 +164,7 @@
 - [Image Extractor](https://extract.pics/)
 - [微博美女](http://www.weibomn.com/ "收集微博中的美女图片！")
 - [学姐吧妹子图](https://xuejieba1.com/tag/meizitu)
-- [Sexy Pet](https://sexypet.co.kr/board/gallery/list.html )
+- [Sexy Pet](https://sexypet.co.kr/board/gallery/list.html)
 - [脚フェチGallery](https://legs.a-hadaka.jp/)
 
 ### 漫画
