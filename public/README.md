@@ -189,4 +189,5 @@
 - [missav](https://missav.ws/ "missav")
 - [jable](https://jable.tv/ "Jable")
 - [9one](https://9one.app/ "9one")
+- [TaiAV](https://taiav.com/cn)
 
