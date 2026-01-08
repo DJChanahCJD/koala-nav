@@ -190,4 +190,6 @@
 - [jable](https://jable.tv/ "Jable")
 - [9one](https://9one.app/ "9one")
 - [TaiAV](https://taiav.com/cn)
+- [PPP](https://ppp.porn/)
+- [肉視频](https://rou.video/)
 
