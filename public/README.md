@@ -3,6 +3,7 @@
 - [Webstack](https://webstack.cc/ "设计师网址导航")
 - [v0](https://v0.app/ "AI全栈设计工具")
 - [linux.do](https://linux.do/ "新的理想型社区")
+- [cc skills/agents 汇总](https://www.aitmpl.com/agents)
 
 ## 🐂 考公
 
